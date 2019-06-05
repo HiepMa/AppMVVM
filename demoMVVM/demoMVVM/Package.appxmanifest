@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="03835d87-2d27-4ecf-abd5-8f8558b068cb"
+    Name="ce80f643-edb8-4e24-868e-43f7199fd49f"
     Publisher="CN=nkhiep"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="03835d87-2d27-4ecf-abd5-8f8558b068cb" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="ce80f643-edb8-4e24-868e-43f7199fd49f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>demoMVVM</DisplayName>

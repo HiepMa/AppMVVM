@@ -8,6 +8,13 @@ D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\AppxManifest.xml
 D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\Core\AppxManifest.xml
 D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\Core\demoMVVM.exe
 D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\demoMVVM.build.appxrecipe
+D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\CommonServiceLocator.dll
+D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\GalaSoft.MvvmLight.dll
+D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\GalaSoft.MvvmLight.pdb
 D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\System.Runtime.dll
 D:\Tail\AppMVVM\demoMVVM\demoMVVM\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
 D:\Tail\AppMVVM\demoMVVM\demoMVVM\obj\x86\Debug\demoMVVM.csprojAssemblyReference.cache
@@ -41,5 +48,6 @@ D:\Tail\AppMVVM\demoMVVM\demoMVVM\obj\x86\Debug\pri.resfiles.intermediate
 D:\Tail\AppMVVM\demoMVVM\demoMVVM\obj\x86\Debug\qualifiers.txt
 D:\Tail\AppMVVM\demoMVVM\demoMVVM\obj\x86\Debug\qualifiers.txt.intermediate
 D:\Tail\AppMVVM\demoMVVM\demoMVVM\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Tail\AppMVVM\demoMVVM\demoMVVM\obj\x86\Debug\GalaSoft.MvvmLight.Platform.pri.xml
 D:\Tail\AppMVVM\demoMVVM\demoMVVM\obj\x86\Debug\ProjectArchitectures.txt
 D:\Tail\AppMVVM\demoMVVM\demoMVVM\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758300200000000.json

@@ -10,18 +10,31 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <UserControl.DataContext>
+        <ViewModels:MusicPlayerViewModels/>
+    </UserControl.DataContext>
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="8*"></ColumnDefinition>
             <ColumnDefinition Width="4*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
         <MediaElement x:Name="mediaSimple" Grid.Column="0"
-                            Source="ms-appx:///Video/demo.webm"
+                            Source="ms-appx:///Assets/Video/demo.webm"
                             AutoPlay="False"
-                            AreTransportControlsEnabled="True"/>
-        <Grid Grid.Column="1">
-            <TextBlock Text="Play List" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="20"></TextBlock>
-
+                            AreTransportControlsEnabled="False"/>
+        <Grid Grid.Column="1" Grid.Row="0" Background="AliceBlue">
+            <TextBlock Text="Play List" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="40" ></TextBlock>
+            <ListView x:Name="listView" Margin="0,60,0,0" />
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+            <Button Margin="20,0,0,0" >
+                <Image Source="{Binding Path=Image_Url}" Height="25"/>
+            </Button>
         </Grid>
     </Grid>
 </Page>

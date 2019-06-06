@@ -25,6 +25,8 @@ namespace MusicPlayer.View
         public MainPage()
         {
             this.InitializeComponent();
+            mediaSimple.Source = new Uri("D:/Tail/AppMVVM/MusicPlayer/MusicPlayer/Video/demo.webm");
+            mediaSimple.AreTransportControlsEnabled = true;
         }
     }
 }

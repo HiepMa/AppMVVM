@@ -5,10 +5,23 @@
     xmlns:local="using:MusicPlayer.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:MusicPlayer.Models"
+    xmlns:ViewModels="using:MusicPlayer.ViewModels"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"></ColumnDefinition>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <MediaElement x:Name="mediaSimple" Grid.Column="0"
+                            Source="ms-appx:///Video/demo.webm"
+                            AutoPlay="False"
+                            AreTransportControlsEnabled="True"/>
+        <Grid Grid.Column="1">
+            <TextBlock Text="Play List" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="20"></TextBlock>
 
+        </Grid>
     </Grid>
 </Page>
